@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Freebies</title>
+</head>
+<body>
+    <main>
+        <section class="free">
+            <div class="free-box">
+                <div class="free-start">
+                    <img class="free-img" src="./Images/girl-photo.svg" alt="Girl photo">
+                    <h1 class="free-title">Let’s get you set up</h1>
+                    <p class="free-text">Itshould only take a couple of <br> minutes <br> to pair with your watch</p>
+                    <a class="free-link" href="#" target="blank"><img class="free-img2" src="./Images/strelka.svg" alt="strelka"></a>
+                </div>
+                <div class="free-end">
+                    <form class="free-form" action="https://echo.htmlacademy.ru/" method="POST" autocomplete="off">
+                        <label class="free-lbl">
+                            Name
+                            <input class="free-inp" type="text" name="user_name" aria-label="Enter your name" placeholder="First name">
+                        </label>
+
+                        <div class="form-wrap">
+                            <p class="lbl-text">Gender</p> 
+                            <label class="wrap-lbl">
+                                Male
+                                <input class="free-inp2r" type="radio" name="user_gender" aria-label="Chose your gender" hidden>
+                                <span class="form-img"><img class="span-img" src="./Images/male.svg" alt="Male"></span>
+                            </label>
+
+                            <label class="wrap-lbl">
+                             Female
+                                <input class="free-inp2r" type="radio" name="user_gender" aria-label="Chose your gender" hidden>
+                                <span class="form-img"><img class="span-img" src="./Images/female.svg" alt="Female"></span>
+                           </label>
+                        </div>
+
+                           <label class="free-lbl">
+                            Date of <br> Birth
+                            <input class="free-inp" type="date" name="user_date" aria-label="Enter your date" placeholder="01/02/1983">
+                        </label>
+                        <label class="free-lbl">
+                            Email
+                            <input class="free-inp" type="email" name="user_email" aria-label="Enter your email" placeholder="kendall@emailcom">
+                        </label>
+                       <label class="free-lbl">
+                        Mobile
+                        <input class="free-inp" type="tel" name="user_tel" aria-label="Enter your phone number" placeholder="+91 98765 43210">
+                       </label>
+                        <label class="free-lbl">
+                            Customer ID
+                            <input class="free-inp" type="text" name="user_id" aria-label="Enter your ID" placeholder="576802-ERD0348 45">
+                        </label>
+                        <label class="free-lbl">
+                            <p class="lbl-text">Membership</p> 
+                            <label class="member-inp">
+                                Classic
+                                <input class="free-inp2" type="checkbox" name="user_member
+                                -classic" aria-label="Enter your membership">
+                                <span class="member-span"><img class="member-img" src="./Images/radio.svg" alt="Classic"></span>
+                            </label>
+                            <label class="member-inp">
+                                Silver
+                                <input class="free-inp2" type="checkbox" name="user_member_silver" aria-label="Enter your membership">
+                                <span class="member-span"><img class="member-img" src="./Images/radio.svg" alt="Silver"></span>
+                            </label>
+                            <label class="member-inp">
+                                Gold
+                                <input class="free-inp2" type="checkbox" name="user_member_gold" aria-label="Enter your membership" hidden>
+                                <span class="member-span"><img class="member-img" src="./Images/radio.svg" alt="Gold"></span>
+                            </label>
+                        </label>
+                        <div class="btn-box">
+                            <button class="free-btn" type="reset">CANCEL</button>
+                            <button class="free-btn2" type="submit">SAVE</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
